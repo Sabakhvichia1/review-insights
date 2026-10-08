@@ -1,0 +1,250 @@
+{
+  "hand_labels": {
+    "by_source": {
+      "both": {
+        "reviews": 91,
+        "accuracy": 0.648,
+        "kappa": 0.511
+      },
+      "amazon": {
+        "reviews": 44,
+        "accuracy": 0.614,
+        "kappa": 0.197
+      },
+      "olist": {
+        "reviews": 47,
+        "accuracy": 0.681,
+        "kappa": 0.549
+      }
+    },
+    "confusion": [
+      {
+        "human": "damaged_on_arrival",
+        "llm": "product_quality",
+        "reviews": 2
+      },
+      {
+        "human": "late_delivery",
+        "llm": "late_delivery",
+        "reviews": 14
+      },
+      {
+        "human": "late_delivery",
+        "llm": "product_quality",
+        "reviews": 1
+      },
+      {
+        "human": "late_delivery",
+        "llm": "seller_service",
+        "reviews": 3
+      },
+      {
+        "human": "late_delivery",
+        "llm": "wrong_or_missing_item",
+        "reviews": 1
+      },
+      {
+        "human": "other",
+        "llm": "other",
+        "reviews": 1
+      },
+      {
+        "human": "other",
+        "llm": "price_value",
+        "reviews": 1
+      },
+      {
+        "human": "other",
+        "llm": "product_quality",
+        "reviews": 3
+      },
+      {
+        "human": "price_value",
+        "llm": "price_value",
+        "reviews": 1
+      },
+      {
+        "human": "product_quality",
+        "llm": "damaged_on_arrival",
+        "reviews": 3
+      },
+      {
+        "human": "product_quality",
+        "llm": "late_delivery",
+        "reviews": 1
+      },
+      {
+        "human": "product_quality",
+        "llm": "price_value",
+        "reviews": 2
+      },
+      {
+        "human": "product_quality",
+        "llm": "product_quality",
+        "reviews": 31
+      },
+      {
+        "human": "product_quality",
+        "llm": "wrong_or_missing_item",
+        "reviews": 1
+      },
+      {
+        "human": "seller_service",
+        "llm": "late_delivery",
+        "reviews": 2
+      },
+      {
+        "human": "seller_service",
+        "llm": "product_quality",
+        "reviews": 1
+      },
+      {
+        "human": "seller_service",
+        "llm": "seller_service",
+        "reviews": 2
+      },
+      {
+        "human": "seller_service",
+        "llm": "wrong_or_missing_item",
+        "reviews": 3
+      },
+      {
+        "human": "wrong_or_missing_item",
+        "llm": "damaged_on_arrival",
+        "reviews": 1
+      },
+      {
+        "human": "wrong_or_missing_item",
+        "llm": "late_delivery",
+        "reviews": 2
+      },
+      {
+        "human": "wrong_or_missing_item",
+        "llm": "product_quality",
+        "reviews": 5
+      },
+      {
+        "human": "wrong_or_missing_item",
+        "llm": "wrong_or_missing_item",
+        "reviews": 10
+      }
+    ],
+    "shares_same_reviews": [
+      {
+        "source": "amazon",
+        "issue": "damaged_on_arrival",
+        "human": 2,
+        "llm": 4
+      },
+      {
+        "source": "amazon",
+        "issue": "late_delivery",
+        "human": 1,
+        "llm": 0
+      },
+      {
+        "source": "amazon",
+        "issue": "other",
+        "human": 5,
+        "llm": 1
+      },
+      {
+        "source": "amazon",
+        "issue": "price_value",
+        "human": 1,
+        "llm": 4
+      },
+      {
+        "source": "amazon",
+        "issue": "product_quality",
+        "human": 29,
+        "llm": 34
+      },
+      {
+        "source": "amazon",
+        "issue": "seller_service",
+        "human": 1,
+        "llm": 1
+      },
+      {
+        "source": "amazon",
+        "issue": "wrong_or_missing_item",
+        "human": 5,
+        "llm": 0
+      },
+      {
+        "source": "olist",
+        "issue": "late_delivery",
+        "human": 18,
+        "llm": 19
+      },
+      {
+        "source": "olist",
+        "issue": "product_quality",
+        "human": 9,
+        "llm": 9
+      },
+      {
+        "source": "olist",
+        "issue": "seller_service",
+        "human": 7,
+        "llm": 4
+      },
+      {
+        "source": "olist",
+        "issue": "wrong_or_missing_item",
+        "human": 13,
+        "llm": 15
+      }
+    ],
+    "disagreement_ids": [
+      "amz_9b06c57274d38dc7ab245ac0cba2a0b3",
+      "97caadd5e32f5f5eda5d0670b39d53dd",
+      "amz_454eeb9a088f2c2f4c1aefe50fcefdb3",
+      "amz_0d5da02145dc5818de2139145d545fd1",
+      "amz_20ae895d2245a2eb72a3923dd5542aa1",
+      "6b667c97d9dbb57b0d3dd327934177c1",
+      "amz_c1147b185cbe2622022e8f288afdfc0c",
+      "amz_7545a513b6df3650fe9ab6b655f2e6ab",
+      "8c27db7a75ebb565b08fb89bf63a7246",
+      "amz_ea73c5e6748414a7927d84bfe8a3303e",
+      "amz_1c064dec9c53d3de7a38c8482903cb3b",
+      "3cdcf429976748f908fe9b822654a912",
+      "amz_d19bca8f456323057a441b039f873522",
+      "9d00b8fa555d61217ade36892c86ed97",
+      "032ae743fa8038cb298c8c6090a51f19",
+      "db05c09d2ee236a0e48cb994eaaaa3a4",
+      "amz_a749216f065c43682a16300f2a2b2c5e",
+      "1a6308ac2462f451538e9c285871425e",
+      "amz_0e322d51e63fb2ee0700f82a52577168",
+      "652ab096011ff771eb3948b10f633581",
+      "amz_2cd8a160439a6ce075f55eaba8ba695a",
+      "amz_788d15177abc26aa1fce2f27fd659903",
+      "amz_ef7431c854c0e2c2b50d5d674206fd4f",
+      "007f155f02008dd28da584c210767024",
+      "amz_cabdf46a65e4b918fef59736720ece08",
+      "cfdb7d3b7de75c68521b44ceb711bc61",
+      "759f794c5b53b5cdace2542daa3b60e9",
+      "amz_0359eecedaf4ca78008feffe630bcf65",
+      "a79d4e3266df1c26a22f2bf0fcdf231b",
+      "d1a96b4468ca0611a6ae0f2d197c91c4",
+      "amz_65da2ef149f6c8baaabf32aefc9478dc",
+      "ea367d520c1e07a970c0452a97496afe"
+    ],
+    "adjudication": {
+      "settled": 32,
+      "disagreements": 32,
+      "llm_fit_better": 21,
+      "hand_label_fit_better": 11,
+      "both_fit": 0
+    }
+  },
+  "delivery_records": {
+    "llm_late_labels": 160,
+    "confirmed_by_records": 115,
+    "precision": 0.719,
+    "reviews_on_late_orders": 141,
+    "labeled_late_delivery": 115,
+    "recall": 0.816
+  }
+}

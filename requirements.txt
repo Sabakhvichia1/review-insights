@@ -1,0 +1,13 @@
+duckdb
+pandas
+pyarrow
+matplotlib
+plotly
+streamlit
+scikit-learn
+google-genai
+pydantic
+python-dotenv
+nbformat
+nbconvert
+ipykernel

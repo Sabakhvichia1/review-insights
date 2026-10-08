@@ -1,0 +1,13 @@
+.venv/
+.env
+__pycache__/
+.ipynb_checkpoints/
+
+# Raw and processed data stay local (licenses + size). Labels are kept.
+data/raw/
+data/*.duckdb
+data/*.duckdb.wal
+data/processed/
+
+# Personal study notes
+NOTES.md
